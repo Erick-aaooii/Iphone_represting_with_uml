@@ -11,8 +11,8 @@ public class Iphone implements ReprodutorMusical, NavegadorNaInternet, AparelhoT
         System.out.println("Tocando: " + musica);
   }
   
-    public void pausar(String musica) {
-      System.out.println("A musica " + musica + " foi pausada");
+    public void pausar() {
+      System.out.println("A musica foi pausada");
     }
   
 	  public void selecionarMusica(String musica) {

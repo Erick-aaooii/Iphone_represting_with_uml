@@ -1,7 +1,7 @@
 import java.util.Scanner;
 
 public class Main {
-
+// bloco de decisão para qual app escolher
     public static void main(String[] args) {
         Iphone meuiphone = new Iphone();
         Scanner input = new Scanner(System.in);
@@ -21,10 +21,11 @@ public class Main {
                 input.next(); // Consumir a entrada inválida
             }
         }
-
+// bloco de decisão para o que fazer no app
         boolean continar2 = true;
         while (continar2) {
             try {
+// Music Player 
                 if (option == 1) {
                     System.out.println("Music Player aberto");
                     System.out.println("Quais opções deseja fazer no Music Player\n1° Tocar. \n2° Pausar. \n3° Selecionar Musica \n4° Fechar o Music Player");
@@ -39,6 +40,7 @@ public class Main {
                             break;
                         case 2:
                             System.out.println("Música pausada");
+                            meuiphone.pausar();
                             break;
                         case 3:
                             System.out.println("Selecione uma nova música");
@@ -52,6 +54,7 @@ public class Main {
                             System.out.println("Opção inválida.");
                             break;
                     }
+// Navegador                    
                 } else if (option == 2) {
                     System.out.println("Navegador aberto");
                     System.out.println("Quais opções deseja fazer no Navegador\n1° Exibir Página. \n2° Adicionar Nova Aba. \n3° Atualizar Página. \n4° Fechar o Navegador.");
@@ -77,6 +80,7 @@ public class Main {
                             System.out.println("Opção inválida.");
                             break;
                     }
+// Telefone                    
                 } else if (option == 3) {
                     System.out.println("Telefone aberto");
                     System.out.println("Quais opções deseja fazer no telefone \n1° Ligar. \n2° Atender. \n3° Iniciar correio de voz. \n4° Fechar o telefone");
