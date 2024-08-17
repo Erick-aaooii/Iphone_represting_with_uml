@@ -28,5 +28,11 @@
 # Site utilizado para criação do UML.
 <p>Para a criação do diagrama UML Utilizei o site <a href="https://app.diagrams.net/">Draw io</a> onde utilizei as ferramentas disponíveis para a criação do diagrama UML.</p>
 
-# Explicação do UML do projeto.
+<img src="https://raw.githubusercontent.com/Erick-aaooii/Iphone_represting_with_uml/main/imgs/Captura%20de%20Tela%20(85).png">
+<p>Sua interface simples e minimalista me fez entender fácilmente como se usava suas ferramentas fora a incrível quantidade de templates que me foi dado para execução do projeto.</p>
 
+# Explicação do UML do projeto.
+Aqui esta a versão do diagrama UMl criado por mim para representar o código presente na pasta <a href="https://github.com/Erick-aaooii/Iphone_represting_with_uml/tree/main/src">src</a>
+
+<img src="https://raw.githubusercontent.com/Erick-aaooii/Iphone_represting_with_uml/main/imgs/Iphone%20Diagram.drawio.png">
+<p>Todas as interfaces que foram sugeridas pela dio foram colodadas dentros de uma pasta chamada <code>Apps</code>, onde é colocada todos os métodos necessários para as interfaces. Já no objeto <code>iphone</code> foi criado toda a lógica de cada método e como deveria agir quando acionado. Após isso é realizado a criação da classe <code>main</code> que molda toda a escolha do usuário e que define a entrada de dados do usuário para a escolha do app que deseja usar, de acordo com a escolha do usuário é dado como retorno a chamada do metódo iphone</p>
