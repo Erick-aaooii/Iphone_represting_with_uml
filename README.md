@@ -6,7 +6,7 @@ A DIO propôs, em seu bootcamp de Java, a criação de um desafio de projeto de 
 
 ## Contexto
 
-Com base no vídeo de lançamento do iPhone de 2007 (link abaixo), você deve elaborar a diagramação das classes e interfaces utilizando uma ferramenta UML de sua preferência. Em seguida, implemente as classes e interfaces no formato de arquivos `.java`.
+Com base no vídeo de lançamento do iPhone de 2007, você deve elaborar a diagramação das classes e interfaces utilizando uma ferramenta UML de sua preferência. Em seguida, implemente as classes e interfaces no formato de arquivos `.java`.
 
 ## Funcionalidades a Modelar
 
